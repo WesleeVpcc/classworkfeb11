@@ -15,9 +15,12 @@ using namespace std;
 int main()
 {
  int number1, number2, sum;
- number1 = 50;
- number2 = 100;
+ cout << "Please enter your first number: ";
+ cin >> number1;
+ cout << "Please enter your second number: ";
+ cin >> number2;
  sum = number1 + number2;
+
  cout << "The first number that you entered is " << number1 << endl;
  cout << "The second number that you entered is " << number2 << endl;
  cout << "The sum of these numbers is " << sum << endl;
